@@ -1,0 +1,19 @@
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: 0;
+}
+pre {
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+/* **************************************************************** */
+/* Left Rail 									
+/* **************************************************************** */
+.left_rail {
+  height: 100%;
+  width: 20%;
+  background: rgba(0, 0, 0, 0.6);
+}
