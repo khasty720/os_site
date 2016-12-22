@@ -52,6 +52,7 @@ h1 {
   font-size: 54px;
   font-weight: 300;
   margin: 0 0 10px;
+  color: #ffffff;
 }
 h1.double {
   margin: 0 0 30px;
@@ -64,7 +65,8 @@ h1.double {
 h2 {
   font-size: 40px;
   font-weight: 300;
-  margin: 0 0 30px;
+  margin: 0 0 20px;
+  color: #ffffff;
 }
 h2.double {
   margin: 0 0 50px;
@@ -76,8 +78,9 @@ h2.double {
 }
 h3 {
   font-size: 24px;
-  font-weight: 300;
-  margin: 0 0 30px;
+  font-weight: 500;
+  margin: 0 0 10px;
+  color: #ffffff;
 }
 h3.double {
   margin: 0 0 40px;
@@ -312,6 +315,7 @@ pre {
 .main section.white {
   background: #ffffff;
 }
+
 .main section.home {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -321,6 +325,7 @@ pre {
   margin: 0 0 0 20%;
   padding: 0;
 }
+
 .main section.home .quote {
   width: 600px;
   text-align: center;
@@ -340,17 +345,45 @@ pre {
   font-style: normal;
   text-align: right;
 }
+
+.main section.services ._inner {
+    background: #666666;
+    margin: 15%;
+    padding: 3%;
+    font-size: 15px;
+    opacity: .90;
+}
 .main section.services p {
-  width: 1000px;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
+  color: #ffffff;
+  line-height: normal;
+  text-align: left;
 }
+
 .main section.about p {
-  width: 1000px;
-  margin: 0 auto 30px;
+    margin: 0 auto 20px;
+    color: #ffffff;
+    line-height: normal;
+    text-align: left;
 }
+.main section.about ._inner {
+    background: #666666;
+    margin: 15%;
+    padding: 3%;
+    font-size: 15px;
+    opacity: .90;
+}
+
 .main section.portfolio {
-  padding: 0;
+  /*padding: 0;*/
 }
+
+.main section.portfolio .container {
+  margin: 0;
+  padding: 5%;
+  width: 100%;
+}
+
 .main section.portfolio .portfolio_outer {
   position: relative;
 }
@@ -374,20 +407,77 @@ pre {
   top: 0;
   left: 0;
 }
+
+/** modal **/
+.modal-dialog {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.thumbnail {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* **************************************************************** */
+/* Form
+/* **************************************************************** */
+
+/* Bootstrap Overrides */
+.form-control {
+  border-radius: 0;
+}
+
+.btn-default {
+  border-radius: 0;
+  width: 120px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .main section.contact .form_outer {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
   overflow: hidden;
   width: 900px;
   padding: 50px;
-  margin: 0 auto;
-  background: #e4e4e6;
+  margin: 10% auto;
+  background: #666666;
+  color: #ffffff;
 }
 .main section.contact .form_outer ._info {
+  font-style: italic;
   float: left;
   width: 40%;
+  padding-right: 8%;
+  text-align: right;
 }
+.main section.contact .form_outer ._info p {
+  line-height: 21px;
+}
+
+.main section.contact .form_outer ._info p > a {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
 .main section.contact .form_outer ._form {
   float: right;
   width: 60%;
+  text-align: left;
 }
 .main section.contact .form_outer ._form ._row {
   margin: 0 0 20px;
