@@ -1,13 +1,13 @@
 var scroll_to_speed = 1000;
-var scroll_to_easing = 'easeOutQuint';	
+var scroll_to_easing = 'easeOutQuint';
 
 /*** prevent hash jump ***/
-if (location.hash) {          
+if (location.hash) {
 	window.scrollTo(0, 0);
 	setTimeout(function() {
 		jQuery.scrollTo(jQuery(location.hash), scroll_to_speed, { easing : scroll_to_easing, offset : -jQuery('.navbar').outerHeight()+2+hash_jump_offset });
 	}, 1);
-} 
+}
 
 /*** external links ***/
 $(document).on('click', '.external', function(){ jQuery(this).attr('target', '_blank');	});
@@ -25,15 +25,15 @@ $('.left_rail ._nav a, .logo a').on('click', function(e){
 function set_sections(){
 	var window_height = $(window).height();
 	var window_width = $(window).width();
-	
+
 	$('section').each(function(){
 		$(this).css('min-height', window_height);
 	});
-	
+
 	/*** home ***/
 	var padding_top_home = (window_height - $('.quote').outerHeight()) / 2;
 	$('section.home').css('padding-top', padding_top_home);
-	
+
 	/*** portfilio ***/
 	$('.portfolio_item').each(function(){
 		var p = $(this);
@@ -72,5 +72,43 @@ $(document).on('click', '.portfolio_outer ._prev', function(e){
 	e.preventDefault();
 	var i = $('.portfolio_outer').data('i');
 	var new_i = i == 0 ? parseInt($('.portfolio_item').length) - 1 : i-1;
-	show_portfolio_item(new_i);	
+	show_portfolio_item(new_i);
+});
+
+/* copy loaded thumbnails into carousel */
+$('.row .thumbnail').on('load', function() {}).each(function(i) {
+ if(this.complete) {
+	 var item = $('<div class="item"></div>');
+	 var itemDiv = $(this).parents('div');
+	 var title = $(this).parent('a').attr("title");
+
+	 item.attr("title",title);
+	 $(itemDiv.html()).appendTo(item);
+	 item.appendTo('.carousel-inner');
+
+	 if (i==0){ // set first item active
+		item.addClass('active');
+	 }
+ }
+});
+
+
+/* activate the carousel */
+$('#modal-carousel').carousel({
+	interval:false
+});
+
+/* change modal title when slide changes */
+$('#modal-carousel').on('slid.bs.carousel', function () {
+	$('.modal-title').html($(this).find('.active').attr("title"));
+})
+
+/* when clicking a thumbnail */
+$('.row .thumbnail').click(function(){
+	 var idx = $(this).parents('div').index();
+	 var id = parseInt(idx);
+	 console.log(idx, " --- " ,id);
+
+	 $('#image-modal').modal('show'); // show the modal
+	 $('#modal-carousel').carousel(id); // slide carousel to selected
 });

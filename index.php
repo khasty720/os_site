@@ -51,83 +51,106 @@
             </div>
         </section>
 
-    	<section id="section_services" class="white services">
-        	<div class="_inner">
-                <h2>Services</h2>
-                <h3>Interior Designs Services</h3>
-                <p>OS Designs provides bespoke solutions to renovation projects. Through close collaboration with our clients, tailored concept boards detailing the mood of the space including fabrics, furniture and room layouts are produced. A complete design package including crockery, linen and accessories can be produced taking the strain away from our clients and allowing them to move into a beautifully furnished space. OS Designs works with appointed contractors and the client to reflect each client’s taste in the most beautiful way.</p>
-                <h3>Architectural Design</h3>
-                <p>OS Designs has notable experience working alongside planning officials to gain planning permission for listed buildings and heritage sites. The team can take on complete project management of a full-scale build, producing full technical architectural drawings. The team works closely with building contractors and structural building professionals to ensure a successful outcome where functionality meets precise design details resulting in a beautiful, bespoke finish to any project. </p>
-                <h3>Project Management</h3>
-                <p>Through in depth knowledge of the industry, key skills and great experience, OS Designs can achieve the goals of each individual project, whether it’s a complete refurbishment and internal redesign to an architectural rebuild. </p>
-                <p>Keeping clients up to date is essential for the smooth running of all projects; cost analysis, procurement and budgeting schedules as well as time frame programmes are always produced as part of the design package. </p>            	<p>OS Designs manages each project from the beginning stages of planning and design development, through to the end where the design installation delivers the envisioned unique, elegant interiors with attention to detail. This includes sourcing beautiful furniture and fabrics as well as designing bespoke joinery, turning our clients’ visions into reality.</p>
-			</div>
+    	<section id="section_services" class="services">
+      	<div class="_inner">
+              <h2>Services</h2>
+              <h3>Interior Designs Services</h3>
+              <p>OS Designs provides bespoke solutions to renovation projects. Through close collaboration with our clients, tailored concept boards detailing the mood of the space including fabrics, furniture and room layouts are produced. A complete design package including crockery, linen and accessories can be produced taking the strain away from our clients and allowing them to move into a beautifully furnished space. OS Designs works with appointed contractors and the client to reflect each client’s taste in the most beautiful way.</p>
+              <h3>Architectural Design</h3>
+              <p>OS Designs has notable experience working alongside planning officials to gain planning permission for listed buildings and heritage sites. The team can take on complete project management of a full-scale build, producing full technical architectural drawings. The team works closely with building contractors and structural building professionals to ensure a successful outcome where functionality meets precise design details resulting in a beautiful, bespoke finish to any project. </p>
+              <h3>Project Management</h3>
+              <p>Through in depth knowledge of the industry, key skills and great experience, OS Designs can achieve the goals of each individual project, whether it’s a complete refurbishment and internal redesign to an architectural rebuild. </p>
+              <p>Keeping clients up to date is essential for the smooth running of all projects; cost analysis, procurement and budgeting schedules as well as time frame programmes are always produced as part of the design package. </p>            	<p>OS Designs manages each project from the beginning stages of planning and design development, through to the end where the design installation delivers the envisioned unique, elegant interiors with attention to detail. This includes sourcing beautiful furniture and fabrics as well as designing bespoke joinery, turning our clients’ visions into reality.</p>
+  	    </div>
         </section>
-    	<section id="section_about" class="white about">
+
+      	<section id="section_about" class="about">
         	<div class="_inner">
                 <h2>About Us</h2>
                 <p>OS Designs carefully manages each project from beginning to end, offering a complete design service and project management throughout. Oz Lancaster is the Design Director & Founder of the studio, and together with an experienced team of designers she provides beautifully unique and functional designs for each individual client. OS Designs places great emphasis on maintaining strong client relations, tailoring each project to the specific needs and vision of the individual, creating exceptional, elegant interiors for private and commercial clients.</p>
 
                 <p>The studio has an international portfolio including large-scale architectural design and renovation for listed buildings in central London, interior design for commercial and residential projects across London, Buckinghamshire and Oxfordshire as well as many projects in the Middle East. </p>
 
-                <h4><em>Oz Lancaster, Design Director &amp; Founder</em></h4>
+                <h3>Oz Lancaster, Design Director &amp; Founder</h3>
                 <p>Design Director, Oz Lancaster (RIBA affiliate member), is the leading force behind the company. Oz started applying her talents during her Interior Architecture and Design degree, which was soon followed with an MA in Furniture Design from Buckinghamshire Chilterns University College – the leading Furniture Design program in the UK. Her diverse background allows her to look beyond just the furnishing of a room; she has a strong architectural background allowing her to design and further develop the architectural and structural elements of the projects undertaken by the company.</p>
                 <p>Oz has an in-depth understanding of global cultures and trends due to growing up in Cyprus and continuing her studies in the UK. Oz has successfully worked on the most exclusive developments not only in London but across the continent and in the Middle East. Her ongoing success can be most recently seen within the exciting and innovative world of aviation and yacht design whereby her exterior and interior designs are revitalising the market place. </p>
-			</div>
+  		    </div>
         </section>
 
-    	<section id="section_portfolio" class="white portfolio">
+      	<section id="section_portfolio" class="portfolio">
 
-        	<div class="portfolio_outer">
+          <div class="container gallery">
+              <div class="row">
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 1" href="#"><img class="thumbnail img-responsive" src="img/portfolio/1.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 2" href="#"><img class="thumbnail img-responsive" src="img/portfolio/2.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 3" href="#"><img class="thumbnail img-responsive" src="img/portfolio/3.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 4" href="#"><img class="thumbnail img-responsive" src="img/portfolio/4.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 5" href="#"><img class="thumbnail img-responsive" src="img/portfolio/5.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 6" href="#"><img class="thumbnail img-responsive" src="img/portfolio/6.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 7" href="#"><img class="thumbnail img-responsive" src="img/portfolio/7.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 8" href="#"><img class="thumbnail img-responsive" src="img/portfolio/8.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 9" href="#"><img class="thumbnail img-responsive" src="img/portfolio/9.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 10" href="#"><img class="thumbnail img-responsive" src="img/portfolio/10.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 11" href="#"><img class="thumbnail img-responsive" src="img/portfolio/11.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 12" href="#"><img class="thumbnail img-responsive" src="img/portfolio/12.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 13" href="#"><img class="thumbnail img-responsive" src="img/portfolio/13.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 14" href="#"><img class="thumbnail img-responsive" src="img/portfolio/14.jpg"></a></div>
+                <!--div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 15" href="#"><img class="thumbnail img-responsive" src="img/portfolio/15.jpg"></a></div-->
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 16" href="#"><img class="thumbnail img-responsive" src="img/portfolio/16.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 17" href="#"><img class="thumbnail img-responsive" src="img/portfolio/17.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 18" href="#"><img class="thumbnail img-responsive" src="img/portfolio/18.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 19" href="#"><img class="thumbnail img-responsive" src="img/portfolio/19.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 20" href="#"><img class="thumbnail img-responsive" src="img/portfolio/20.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 21" href="#"><img class="thumbnail img-responsive" src="img/portfolio/21.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 22" href="#"><img class="thumbnail img-responsive" src="img/portfolio/22.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 23" href="#"><img class="thumbnail img-responsive" src="img/portfolio/23.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 24" href="#"><img class="thumbnail img-responsive" src="img/portfolio/24.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 25" href="#"><img class="thumbnail img-responsive" src="img/portfolio/25.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 26" href="#"><img class="thumbnail img-responsive" src="img/portfolio/26.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 27" href="#"><img class="thumbnail img-responsive" src="img/portfolio/27.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 28" href="#"><img class="thumbnail img-responsive" src="img/portfolio/28.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 29" href="#"><img class="thumbnail img-responsive" src="img/portfolio/29.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 30" href="#"><img class="thumbnail img-responsive" src="img/portfolio/30.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 31" href="#"><img class="thumbnail img-responsive" src="img/portfolio/31.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 32" href="#"><img class="thumbnail img-responsive" src="img/portfolio/32.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 33" href="#"><img class="thumbnail img-responsive" src="img/portfolio/33.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 34" href="#"><img class="thumbnail img-responsive" src="img/portfolio/34.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 35" href="#"><img class="thumbnail img-responsive" src="img/portfolio/35.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 36" href="#"><img class="thumbnail img-responsive" src="img/portfolio/36.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 37" href="#"><img class="thumbnail img-responsive" src="img/portfolio/37.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 38" href="#"><img class="thumbnail img-responsive" src="img/portfolio/38.jpg"></a></div>
+              </div>
+          </div>
 
-				<div class="_nav">
-                	<a href="#" class="_prev"><i class="fa fa-arrow-circle-left"></i></a>
-                    <span>OS Designs Portfolio</span>
-                    <a href="#" class="_next"><i class="fa fa-arrow-circle-right"></i></a>
-                </div>
-            	<div class="portfolio_item" data-img="img/portfolio/1.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/2.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/3.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/4.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/5.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/6.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/7.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/8.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/9.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/10.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/11.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/12.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/13.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/14.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/15.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/16.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/17.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/18.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/19.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/20.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/21.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/22.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/23.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/24.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/25.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/26.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/27.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/28.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/29.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/30.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/31.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/32.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/33.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/34.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/36.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/37.jpg"></div>
-            	<div class="portfolio_item" data-img="img/portfolio/38.jpg"></div>
+        <!-- Modal Carousel -->
+          <div class="modal fade" id="image-modal" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
 
+              	<div class="modal-body">
+            		  <div id="modal-carousel" class="carousel slide" data-interval="false">
+                    <div class="carousel-inner">
+                      <!-- Popualted with thumbnails -->
+
+                    </div>
+
+                    <a class="left carousel-control" href="#modal-carousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#modal-carousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                  </div>
+              	</div>
+
+             </div>
             </div>
+          </div>
 
-        </section> <!-- / portfolio -->
 
-    	<section id="section_contact" class="white contact">
+          </section> <!-- / portfolio -->
+
+    	<section id="section_contact" class="contact">
         	<div class="_inner">
                 <!--h2>Contact Us</h2-->
                 <div class="form_outer">
@@ -158,13 +181,13 @@
                                     <textarea class="form-control" id="contact_message" name="message" placeholder="Enter Your Message"></textarea>
                                 </div>
                                 <div class="_row">
-                                    <button type="button" class="btn btn-primary">Submit</button>
+                                    <button type="button" class="btn btn-default">Submit</button>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
-			</div>
+			        </div>
         </section>
 
     </div>

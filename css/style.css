@@ -315,7 +315,6 @@ pre {
 .main section.white {
   background: #ffffff;
 }
-
 .main section.home {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -325,7 +324,6 @@ pre {
   margin: 0 0 0 20%;
   padding: 0;
 }
-
 .main section.home .quote {
   width: 600px;
   text-align: center;
@@ -345,45 +343,32 @@ pre {
   font-style: normal;
   text-align: right;
 }
-
 .main section.services ._inner {
-    background: #666666;
-    margin: 15%;
-    padding: 3%;
-    font-size: 15px;
-    opacity: .90;
+  background: #666666;
+  margin: 15%;
+  padding: 3%;
+  font-size: 15px;
+  opacity: .90;
 }
-.main section.services p {
+.main section.services ._inner p {
   margin: 0 auto 20px;
   color: #ffffff;
   line-height: normal;
   text-align: left;
 }
-
-.main section.about p {
-    margin: 0 auto 20px;
-    color: #ffffff;
-    line-height: normal;
-    text-align: left;
-}
 .main section.about ._inner {
-    background: #666666;
-    margin: 15%;
-    padding: 3%;
-    font-size: 15px;
-    opacity: .90;
+  background: #666666;
+  margin: 15%;
+  padding: 3%;
+  font-size: 15px;
+  opacity: .90;
 }
-
-.main section.portfolio {
-  /*padding: 0;*/
+.main section.about ._inner p {
+  margin: 0 auto 20px;
+  color: #ffffff;
+  line-height: normal;
+  text-align: left;
 }
-
-.main section.portfolio .container {
-  margin: 0;
-  padding: 5%;
-  width: 100%;
-}
-
 .main section.portfolio .portfolio_outer {
   position: relative;
 }
@@ -407,46 +392,12 @@ pre {
   top: 0;
   left: 0;
 }
-
-/** modal **/
-.modal-dialog {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.modal-content {
-  border-radius: 0;
-}
-
-.modal-body {
-  padding: 0;
-}
-
-.thumbnail {
-  height: 100%;
+.main section.portfolio .container {
+  margin: 0;
+  padding: 5%;
   width: 100%;
-  padding: 0;
-  margin-bottom: 0;
 }
-
-/* **************************************************************** */
-/* Form
-/* **************************************************************** */
-
-/* Bootstrap Overrides */
-.form-control {
-  border-radius: 0;
-}
-
-.btn-default {
-  border-radius: 0;
-  width: 120px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 .main section.contact .form_outer {
-  color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -467,13 +418,11 @@ pre {
 .main section.contact .form_outer ._info p {
   line-height: 21px;
 }
-
 .main section.contact .form_outer ._info p > a {
   color: inherit;
   text-decoration: underline;
   font-weight: 300;
 }
-
 .main section.contact .form_outer ._form {
   float: right;
   width: 60%;
@@ -505,4 +454,41 @@ pre {
   width: 100%;
   padding: 0 20px 0 0;
   z-index: 1000;
+}
+/* **************************************************************** */
+/* Bootstrap Overrides
+/* **************************************************************** */
+/** modal **/
+.modal-dialog {
+  height: 60%;
+  margin-top: 8%;
+}
+.modal-content {
+  border-radius: 0;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-body .thumbnail {
+  max-height: 500px;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0;
+}
+.thumbnail {
+  width: 150px;
+  height: 120px;
+  padding: 0px;
+  border-radius: 0;
+  border: 0;
+}
+/** Form **/
+.form-control {
+  border-radius: 0;
+}
+.btn-default {
+  border-radius: 0;
+  width: 120px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
