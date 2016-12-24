@@ -103,3 +103,22 @@ $('.row .thumbnail').click(function(){
 	 $('#image-modal').modal('show'); // show the modal
 	 $('#modal-carousel').carousel(id); // slide carousel to selected
 });
+
+
+//Prevent Modal Scroll top
+var scrollPos = 0;
+var main = $('body')
+$('.modal')
+    .on('show.bs.modal', function (){
+        scrollPos = main.scrollTop();
+        main.css({
+            overflow: 'hidden',
+            top : -scrollPos
+        });
+    })
+    .on('hide.bs.modal', function (){
+        main.css({
+            overflow: '',
+            top: ''
+        }).scrollTop(scrollPos);
+    });
