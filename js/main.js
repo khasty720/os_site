@@ -77,7 +77,6 @@ $(document).on('click', '.portfolio_outer ._prev', function(e){
 
 /* copy loaded thumbnails into carousel */
 $('.row .thumbnail').on('load', function() {}).each(function(i) {
- if(this.complete) {
 	 var item = $('<div class="item"></div>');
 	 var itemDiv = $(this).parents('div');
 
@@ -87,7 +86,6 @@ $('.row .thumbnail').on('load', function() {}).each(function(i) {
 	 if (i==0){ // set first item active
 		item.addClass('active');
 	 }
- }
 });
 
 /* change modal title when slide changes */
@@ -105,7 +103,7 @@ $('.row .thumbnail').click(function(){
 });
 
 
-//Prevent Modal Scroll top
+//Prevent scroll top on modal open
 var scrollPos = 0;
 var main = $('body')
 $('.modal')
