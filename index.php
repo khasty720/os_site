@@ -95,7 +95,7 @@
                 <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 12" href="#"><img class="thumbnail img-responsive" src="img/portfolio/12.jpg"></a></div>
                 <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 13" href="#"><img class="thumbnail img-responsive" src="img/portfolio/13.jpg"></a></div>
                 <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 14" href="#"><img class="thumbnail img-responsive" src="img/portfolio/14.jpg"></a></div>
-                <!--div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 15" href="#"><img class="thumbnail img-responsive" src="img/portfolio/15.jpg"></a></div-->
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 15" href="#"><img class="thumbnail img-responsive" src="img/portfolio/15.jpg"></a></div>
                 <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 16" href="#"><img class="thumbnail img-responsive" src="img/portfolio/16.jpg"></a></div>
                 <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 17" href="#"><img class="thumbnail img-responsive" src="img/portfolio/17.jpg"></a></div>
                 <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 18" href="#"><img class="thumbnail img-responsive" src="img/portfolio/18.jpg"></a></div>
@@ -124,14 +124,13 @@
 
         <!-- Modal Carousel -->
           <div class="modal fade" id="image-modal" role="dialog">
-            <div class="modal-dialog modal-lg">
+            <div class="modal-dialog">
               <div class="modal-content">
 
               	<div class="modal-body">
-            		  <div id="modal-carousel" class="carousel slide" data-interval="false">
+            		  <div id="modal-carousel" class="carousel slide container" data-interval="false">
                     <div class="carousel-inner">
                       <!-- Popualted with thumbnails -->
-
                     </div>
 
                     <a class="left carousel-control" href="#modal-carousel" role="button" data-slide="prev">
@@ -190,10 +189,6 @@
 			        </div>
         </section>
 
-    </div>
-
-    <div class="footer">
-    	Copyright &copy; 2016 OS DESIGNS LTD
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

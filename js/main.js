@@ -80,9 +80,7 @@ $('.row .thumbnail').on('load', function() {}).each(function(i) {
  if(this.complete) {
 	 var item = $('<div class="item"></div>');
 	 var itemDiv = $(this).parents('div');
-	 var title = $(this).parent('a').attr("title");
 
-	 item.attr("title",title);
 	 $(itemDiv.html()).appendTo(item);
 	 item.appendTo('.carousel-inner');
 
@@ -92,22 +90,15 @@ $('.row .thumbnail').on('load', function() {}).each(function(i) {
  }
 });
 
-
-/* activate the carousel */
-$('#modal-carousel').carousel({
-	interval:false
-});
-
 /* change modal title when slide changes */
 $('#modal-carousel').on('slid.bs.carousel', function () {
-	$('.modal-title').html($(this).find('.active').attr("title"));
+	$('.modal-title').html($(this).find('.active'));
 })
 
 /* when clicking a thumbnail */
 $('.row .thumbnail').click(function(){
 	 var idx = $(this).parents('div').index();
 	 var id = parseInt(idx);
-	 console.log(idx, " --- " ,id);
 
 	 $('#image-modal').modal('show'); // show the modal
 	 $('#modal-carousel').carousel(id); // slide carousel to selected
