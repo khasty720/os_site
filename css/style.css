@@ -369,6 +369,9 @@ pre {
   line-height: normal;
   text-align: left;
 }
+.main section.portfolio {
+  /** modal **/
+}
 .main section.portfolio .portfolio_outer {
   position: relative;
 }
@@ -396,6 +399,41 @@ pre {
   margin: 0;
   padding: 5%;
   width: 100%;
+}
+.main section.portfolio .modal-dialog {
+  height: 60%;
+  margin-top: 8%;
+}
+.main section.portfolio .modal-content {
+  border-radius: 0;
+}
+.main section.portfolio .modal-body {
+  padding: 0;
+}
+.main section.portfolio .modal-body #modal-carousel {
+  padding: 0;
+}
+.main section.portfolio .modal-body #modal-carousel .thumbnail {
+  height: auto;
+  width: 100%;
+  max-height: 500px;
+  padding: 0;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+}
+.main section.portfolio .gallery {
+  background: #666666;
+  opacity: .95;
+  width: 80%;
+  margin: 10%;
+}
+.main section.portfolio .gallery .thumbnail {
+  width: 150px;
+  height: 105px;
+  padding: 0px;
+  border-radius: 0;
+  border: 0;
 }
 .main section.contact .form_outer {
   font-family: 'Open Sans', sans-serif;
@@ -458,30 +496,6 @@ pre {
 /* **************************************************************** */
 /* Bootstrap Overrides
 /* **************************************************************** */
-/** modal **/
-.modal-dialog {
-  height: 60%;
-  margin-top: 8%;
-}
-.modal-content {
-  border-radius: 0;
-}
-.modal-body {
-  padding: 0;
-}
-.modal-body .thumbnail {
-  max-height: 500px;
-  width: 100%;
-  padding: 0;
-  margin-bottom: 0;
-}
-.thumbnail {
-  width: 150px;
-  height: 120px;
-  padding: 0px;
-  border-radius: 0;
-  border: 0;
-}
 /** Form **/
 .form-control {
   border-radius: 0;
@@ -491,4 +505,8 @@ pre {
   width: 120px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.modal-backdrop {
+  background-color: black;
+  opacity: 1;
 }
