@@ -24,22 +24,39 @@
     <![endif]-->
   </head>
   <body>
-    <div class="left_rail">
-    	<div class="logo"><a href="#" data-scrollto="home">OS Designs<span>London</span></a></div>
-        <ul class="_nav">
-        	<li><a href="#" data-scrollto="services">Services</a></li>
-        	<li><a href="#" data-scrollto="about">About Us</a></li>
-        	<li><a href="#" data-scrollto="portfolio">Portfolio</a></li>
-        	<li><a href="#" data-scrollto="contact">Contact Us</a></li>
-        </ul>
-        <div class="copyright">
-        	<div class="social">
-            	<a href="https://www.facebook.com/OsDesignsLimited" class="external"><i class="fa fa-2x fa-facebook-square"></i></a>
-                <a href="https://uk.linkedin.com/in/oz-özge-lancaster-74770826" class="external"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                <a href="https://twitter.com/ozlancaster" class="external"><i class="fa fa-2x fa-twitter-square"></i></a>
+    <div class="container body-container">
+      <div class="left_rail">
+
+        <div class="row">
+          <div class="col-xs-12">
+      	     <div class="logo"><a href="#" data-scrollto="home">OS Designs<span>London</span></a></div>
+           </div>
+         </div>
+
+         <div class="row">
+           <div class="col-xs-12">
+              <ul class="_nav">
+              	<li><a href="#" data-scrollto="services">Services</a></li>
+              	<li><a href="#" data-scrollto="about">About Us</a></li>
+              	<li><a href="#" data-scrollto="portfolio">Portfolio</a></li>
+              	<li><a href="#" data-scrollto="contact">Contact Us</a></li>
+              </ul>
             </div>
-        </div>
-    </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="copyright">
+              	<div class="social">
+              	  <a href="https://www.facebook.com/OsDesignsLimited" class="external"><i class="fa fa-2x fa-facebook-square"></i></a>
+                  <a href="https://uk.linkedin.com/in/oz-özge-lancaster-74770826" class="external"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                  <a href="https://twitter.com/ozlancaster" class="external"><i class="fa fa-2x fa-twitter-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
 
     <div class="main">
 
@@ -198,5 +215,6 @@
     <script src="js/vendor/jquery.easing.1.3.js"></script>
     <script src="js/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
     <script src="js/main.js"></script>
+  </div>
   </body>
 </html>

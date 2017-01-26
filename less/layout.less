@@ -4,6 +4,12 @@
 .btn:focus, .btn:active:focus, .btn.active:focus { outline:0; }
 pre { border:0; background:none; padding:0; margin:0; }
 
+.body-container {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
 /* **************************************************************** */
 /* Left Rail
 /* **************************************************************** */
@@ -14,7 +20,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 	font-size:20px;
 	font-weight:300;
 	height:100%;
-	padding:140px 30px 0;
+	padding:10% 2% 0;
 	position:fixed;
 	text-align:center;
 	width:20%;
@@ -23,7 +29,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 		color:@white;
 	}
 	.logo {
-		margin:0 0 100px;
+		margin:0 0 40%;
 		a {
 			background:url('../img/logo.png') top center no-repeat;
 			background-size:100px 100px;
@@ -32,7 +38,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 			display:block;
 			font-size:22px;
 			font-weight:300;
-			padding:120px 0 60px;
+			padding:120px 0 20%;
 			text-transform:uppercase;
 			span {
 				display:block;
@@ -43,7 +49,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 	}
 	ul {
 		.ul_list;
-		margin:0 0 100px;
+		margin:0 0 40%;
 		li {
 			a {
 				color:@super_lighter_grey;
@@ -51,7 +57,6 @@ pre { border:0; background:none; padding:0; margin:0; }
 		}
 	}
 	.copyright {
-		position:absolute;
 		bottom:0;
 		left:0;
 		width:100%;
@@ -59,8 +64,8 @@ pre { border:0; background:none; padding:0; margin:0; }
 		font-size:14px;
 		.social {
 			border-top:1px solid @super_light_grey;
-			margin:0 30px;
-			padding:20px 0 0;
+			margin:0;
+			padding:10px 0 0 0;
 			a {
 				color:@white;
 				padding-left:6px;
@@ -111,7 +116,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 		&.services {
 			._inner {
 				background: @darker_grey;
-		    margin: 15%;
+		    margin: 12%;
 		    padding: 3%;
 		    font-size: 15px;
 		    opacity: .90;
@@ -126,7 +131,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 		&.about {
 			._inner {
 				background: @darker_grey;
-		    margin: 15%;
+		    margin: 12%;
 		    padding: 3%;
 		    font-size: 15px;
 		    opacity: .90;
@@ -222,7 +227,8 @@ pre { border:0; background:none; padding:0; margin:0; }
 		    font-weight: 300;
 		    font-size: 15px;
 		    overflow: hidden;
-		    width: 900px;
+				width: 80%;
+		    max-width: 900px;
 		    padding: 50px;
 		    margin: 10% auto;
 		    background: @darker_grey;

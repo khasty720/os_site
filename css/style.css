@@ -63,13 +63,19 @@ h1.double {
   }
 }
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 300;
   margin: 0 0 20px;
   color: #ffffff;
 }
 h2.double {
   margin: 0 0 50px;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 13px;
 }
 @media (max-width: 640px) {
   h2 {
@@ -239,6 +245,11 @@ pre {
   padding: 0;
   margin: 0;
 }
+.body-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
 /* **************************************************************** */
 /* Left Rail
 /* **************************************************************** */
@@ -249,7 +260,7 @@ pre {
   font-size: 20px;
   font-weight: 300;
   height: 100%;
-  padding: 140px 30px 0;
+  padding: 10% 2% 0;
   position: fixed;
   text-align: center;
   width: 20%;
@@ -259,7 +270,7 @@ pre {
   color: #ffffff;
 }
 .left_rail .logo {
-  margin: 0 0 100px;
+  margin: 0 0 40%;
 }
 .left_rail .logo a {
   background: url('../img/logo.png') top center no-repeat;
@@ -269,7 +280,7 @@ pre {
   display: block;
   font-size: 22px;
   font-weight: 300;
-  padding: 120px 0 60px;
+  padding: 120px 0 20%;
   text-transform: uppercase;
 }
 .left_rail .logo a span {
@@ -280,13 +291,12 @@ pre {
 .left_rail ul {
   list-style: none;
   margin: 0 0 20px;
-  margin: 0 0 100px;
+  margin: 0 0 40%;
 }
 .left_rail ul li a {
   color: #e4e4e6;
 }
 .left_rail .copyright {
-  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -295,8 +305,8 @@ pre {
 }
 .left_rail .copyright .social {
   border-top: 1px solid #acacac;
-  margin: 0 30px;
-  padding: 20px 0 0;
+  margin: 0;
+  padding: 10px 0 0 0;
 }
 .left_rail .copyright .social a {
   color: #ffffff;
@@ -345,7 +355,7 @@ pre {
 }
 .main section.services ._inner {
   background: #666666;
-  margin: 15%;
+  margin: 12%;
   padding: 3%;
   font-size: 15px;
   opacity: .90;
@@ -358,7 +368,7 @@ pre {
 }
 .main section.about ._inner {
   background: #666666;
-  margin: 15%;
+  margin: 12%;
   padding: 3%;
   font-size: 15px;
   opacity: .90;
@@ -444,7 +454,8 @@ pre {
   font-weight: 300;
   font-size: 15px;
   overflow: hidden;
-  width: 900px;
+  width: 80%;
+  max-width: 900px;
   padding: 50px;
   margin: 10% auto;
   background: #666666;
