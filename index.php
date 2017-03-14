@@ -38,6 +38,7 @@
               <ul class="_nav">
               	<li><a href="#" data-scrollto="services">Services</a></li>
               	<li><a href="#" data-scrollto="about">About Us</a></li>
+                <li><a href="#" data-scrollto="projects">Projects</a></li>
               	<li><a href="#" data-scrollto="portfolio">Portfolio</a></li>
               	<li><a href="#" data-scrollto="contact">Contact Us</a></li>
               </ul>
@@ -50,7 +51,8 @@
               	<div class="social">
               	  <a href="https://www.facebook.com/OsDesignsLimited" class="external"><i class="fa fa-2x fa-facebook-square"></i></a>
                   <a href="https://uk.linkedin.com/in/oz-özge-lancaster-74770826" class="external"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                  <a href="https://twitter.com/ozlancaster" class="external"><i class="fa fa-2x fa-twitter-square"></i></a>
+                  <a href="https://twitter.com/OS_Designs" class="external"><i class="fa fa-2x fa-twitter-square"></i></a>
+                  <a href="https://www.instagram.com/o.s.designs/?hl=en" class="external"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
@@ -71,13 +73,13 @@
     	<section id="section_services" class="services">
       	<div class="_inner">
               <h2>Services</h2>
-              <h3>Interior Designs Services</h3>
+              <h3>Interior Design Services</h3>
               <p>OS Designs provides bespoke solutions to renovation projects. Through close collaboration with our clients, tailored concept boards detailing the mood of the space including fabrics, furniture and room layouts are produced. A complete design package including crockery, linen and accessories can be produced taking the strain away from our clients and allowing them to move into a beautifully furnished space. OS Designs works with appointed contractors and the client to reflect each client’s taste in the most beautiful way.</p>
               <h3>Architectural Design</h3>
               <p>OS Designs has notable experience working alongside planning officials to gain planning permission for listed buildings and heritage sites. The team can take on complete project management of a full-scale build, producing full technical architectural drawings. The team works closely with building contractors and structural building professionals to ensure a successful outcome where functionality meets precise design details resulting in a beautiful, bespoke finish to any project. </p>
               <h3>Project Management</h3>
               <p>Through in depth knowledge of the industry, key skills and great experience, OS Designs can achieve the goals of each individual project, whether it’s a complete refurbishment and internal redesign to an architectural rebuild. </p>
-              <p>Keeping clients up to date is essential for the smooth running of all projects; cost analysis, procurement and budgeting schedules as well as time frame programmes are always produced as part of the design package. </p>            	<p>OS Designs manages each project from the beginning stages of planning and design development, through to the end where the design installation delivers the envisioned unique, elegant interiors with attention to detail. This includes sourcing beautiful furniture and fabrics as well as designing bespoke joinery, turning our clients’ visions into reality.</p>
+              <p>Keeping clients up to date is essential for the smooth running of all projects; cost analysis, procurement and budgeting schedules as well as time frame programmes are always produced as part of the design package. </p>            	<p>OS Designs manages each project from the beginning stages of planning and design development, through to the end where the design installation delivers the envisioned unique, elegant interiors with attention to detail. This includes sourcing beautiful furniture and fabrics as well as designing bespoke joinery, turning clients’ visions into reality.</p>
   	    </div>
         </section>
 
@@ -89,9 +91,46 @@
                 <p>The studio has an international portfolio including large-scale architectural design and renovation for listed buildings in central London, interior design for commercial and residential projects across London, Buckinghamshire and Oxfordshire as well as many projects in the Middle East. </p>
 
                 <h3>Oz Lancaster, Design Director &amp; Founder</h3>
-                <p>Design Director, Oz Lancaster (RIBA affiliate member), is the leading force behind the company. Oz started applying her talents during her Interior Architecture and Design degree, which was soon followed with an MA in Furniture Design from Buckinghamshire Chilterns University College – the leading Furniture Design program in the UK. Her diverse background allows her to look beyond just the furnishing of a room; she has a strong architectural background allowing her to design and further develop the architectural and structural elements of the projects undertaken by the company.</p>
-                <p>Oz has an in-depth understanding of global cultures and trends due to growing up in Cyprus and continuing her studies in the UK. Oz has successfully worked on the most exclusive developments not only in London but across the continent and in the Middle East. Her ongoing success can be most recently seen within the exciting and innovative world of aviation and yacht design whereby her exterior and interior designs are revitalising the market place. </p>
-  		    </div>
+                <div class="media">
+                  <div class="media-body">
+                    <p>Design Director, Oz Lancaster (RIBA affiliate member), is the leading force behind the company. Oz started applying her talents during her Interior Architecture and Design degree, which was soon followed with an MA in Furniture Design from Buckinghamshire Chilterns University College – the leading Furniture Design program in the UK. Her diverse background allows her to look beyond just the furnishing of a room; she has a strong architectural background allowing her to design and further develop the architectural and structural elements of the projects undertaken by the company.</p>
+                    <p>Oz has an in-depth understanding of global cultures and trends due to growing up in Cyprus and continuing her studies in the UK. Oz has successfully worked on the most exclusive developments not only in London but across the continent and in the Middle East. Her ongoing success can be most recently seen within the exciting and innovative world of aviation and yacht design whereby her exterior and interior designs are revitalising the market place. </p>
+                  </div>
+                  <div class="media-left media-top">
+                      <img class="media-object profile-img" src="img/profile_pic.jpg" alt="Profile image">
+                  </div>
+                </div>
+
+          </div>
+        </section>
+
+        <section id="section_projects" class="about">
+          <div class="_inner">
+                <h2>Projects</h2><center>
+                <ul>
+                  <li><p>Weston Homes - Portman Square W1H 6AZ</p></li>
+                  <li><p>Weston Homes - Takeley, CM22 9PU</p></li>
+                  <li><p>Weston Homes - Denham Film studios, UB9</p></li>
+                  <li><p>55 Ebury Street, SW1W 0PB</p></li>
+                  <li><p>Villa - Cheshire, Manchester</p></li>
+                  <li><p>Sussex gardens - W2</p></li>
+                  <li><p>Putney heath Lane - Putney</p></li>
+                  <li><p>Raynhams Court - W2</p></li>
+                  <li><p>Hyde Park Gardens - W2</p></li>
+                  <li><p>Jab International - London Showroom, SW10</p></li>
+                  <li><p>Quadrangle - Chelsea Harbour, SW10</p></li>
+                  <li><p>Carlyle Court - Chelsea Harbour, SW10</p></li>
+                  <li><p>The barn - Thame</p></li>
+                  <li><p>Villa - Cyprus</p></li>
+                  <li><p>Penthouse - Cyprus</p></li>
+                  <li><p>Avenue Foch - Paris</p></li>
+                  <li><p>Alfa Shipyards - Genoa, Italy</p></li>
+                  <li><p>Albert Gate Court - SW1X</p></li>
+                  <li><p>Villa - Sunningdale</p></li>
+                  <li><p>Sloane Street - Knightsbridge Court</p></li>
+                  <li><p>Penthouse - Earls Court</p></li>
+                  </ul>
+          </div>
         </section>
 
       	<section id="section_portfolio" class="portfolio">
@@ -136,6 +175,35 @@
                 <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 36" href="#"><img class="thumbnail img-responsive" src="img/portfolio/36.jpg"></a></div>
                 <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 37" href="#"><img class="thumbnail img-responsive" src="img/portfolio/37.jpg"></a></div>
                 <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 38" href="#"><img class="thumbnail img-responsive" src="img/portfolio/38.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 39" href="#"><img class="thumbnail img-responsive" src="img/portfolio/39.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 40" href="#"><img class="thumbnail img-responsive" src="img/portfolio/40.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 41" href="#"><img class="thumbnail img-responsive" src="img/portfolio/41.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 42" href="#"><img class="thumbnail img-responsive" src="img/portfolio/42.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 43" href="#"><img class="thumbnail img-responsive" src="img/portfolio/43.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 44" href="#"><img class="thumbnail img-responsive" src="img/portfolio/44.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 45" href="#"><img class="thumbnail img-responsive" src="img/portfolio/45.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 46" href="#"><img class="thumbnail img-responsive" src="img/portfolio/46.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 47" href="#"><img class="thumbnail img-responsive" src="img/portfolio/47.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 48" href="#"><img class="thumbnail img-responsive" src="img/portfolio/48.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 50" href="#"><img class="thumbnail img-responsive" src="img/portfolio/50.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 51" href="#"><img class="thumbnail img-responsive" src="img/portfolio/51.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 52" href="#"><img class="thumbnail img-responsive" src="img/portfolio/52.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 53" href="#"><img class="thumbnail img-responsive" src="img/portfolio/53.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 54" href="#"><img class="thumbnail img-responsive" src="img/portfolio/54.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 55" href="#"><img class="thumbnail img-responsive" src="img/portfolio/55.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 56" href="#"><img class="thumbnail img-responsive" src="img/portfolio/56.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 57" href="#"><img class="thumbnail img-responsive" src="img/portfolio/57.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 58" href="#"><img class="thumbnail img-responsive" src="img/portfolio/58.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 59" href="#"><img class="thumbnail img-responsive" src="img/portfolio/59.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 60" href="#"><img class="thumbnail img-responsive" src="img/portfolio/60.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 61" href="#"><img class="thumbnail img-responsive" src="img/portfolio/61.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 62" href="#"><img class="thumbnail img-responsive" src="img/portfolio/62.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 63" href="#"><img class="thumbnail img-responsive" src="img/portfolio/63.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 64" href="#"><img class="thumbnail img-responsive" src="img/portfolio/64.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 65" href="#"><img class="thumbnail img-responsive" src="img/portfolio/65.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 66" href="#"><img class="thumbnail img-responsive" src="img/portfolio/66.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 67" href="#"><img class="thumbnail img-responsive" src="img/portfolio/67.jpg"></a></div>
+                <div class="col-lg-2 col-sm-3 col-xs-6"><a title="Image 68" href="#"><img class="thumbnail img-responsive" src="img/portfolio/68.jpg"></a></div>
               </div>
           </div>
 
@@ -172,14 +240,13 @@
                 <div class="form_outer">
                     <div class="_info">
                         <p>
-                            OS Designs<br/>
-                            Grand Union Studios, Unit 2.21<br/>
-                            332 Ladbroke Grove<br/>
+                            OS Designs Ltd.<br/>
+                            23-24 Hyde Park Gardens<br/>
                             London<br/>
-                            W10 5AD<br/>
-                            <a href="mailto:Info@osdesigns.co.uk">Info@osdesigns.co.uk</a>
+                            W2 2LY<br/>
+                            <a href="mailto:info@osdesigns.co.uk">info@osdesigns.co.uk</a>
                         </p>
-                        <p>Tel +44(0) 207 352 6323</p>
+                        <p>Tel +44 (0) 207 352 6323</p>
                     </div>
                     <div class="_form">
                         <form action="#">
