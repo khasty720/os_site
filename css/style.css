@@ -427,6 +427,8 @@ pre {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+  width: 90%;
+  margin-top: 5px;
 }
 .main section.portfolio .modal-content {
   border-radius: 0;
@@ -441,7 +443,6 @@ pre {
 .main section.portfolio .modal-body #modal-carousel .thumbnail {
   height: auto;
   width: auto;
-  max-height: 500px;
   padding: 0;
   margin-bottom: 0;
   border: 0;
