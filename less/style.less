@@ -1,0 +1,45 @@
+// Fonts
+@arial:	        				Arial, Helvetica, sans-serif;
+@dancing_script:				'Dancing Script', sans-serif;
+@open_sans:						'Open Sans', sans-serif;
+@open_sans_condensed:			'Open Sans Condensed', sans-serif;
+@roboto:						'Roboto', sans-serif;
+@roboto_condensed:				'Roboto Condensed', sans-serif;
+@josefin:						'Josefin Sans', sans-serif;
+
+// Colors
+@white:							#ffffff;
+@black:							#000000;
+@red:							#ff0000;
+@grey:							#333333;
+@darker_grey:					#666666;
+@darkest_grey:					#999999;
+@super_light_grey:				#acacac;
+@super_lighter_grey:			#e4e4e6;
+@link_blue:						#006699;
+@bg_blue:						#e6ecf3;
+@hamburger_blue:				#0e4c8f;
+@nav_bg_blue:					#00518e;
+@bg_grey:						#f3f4f8;
+@heading_red:					#990000;
+@button_red:					#990000;
+@text_error:					#ff0000;
+
+
+// Functions
+.vendor(@property, @value) {
+    -webkit-@{property}: @value;
+     -khtml-@{property}: @value;
+       -moz-@{property}: @value;
+            @{property}: @value;
+}
+
+// Mixins
+.ul_list() {
+	list-style:none;
+	margin:0 0 20px;
+}
+
+// MM Less
+@import "general.less";
+@import "layout.less";
