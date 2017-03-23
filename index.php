@@ -254,26 +254,21 @@
                         //if "email" variable is filled out, send email
                         if (isset($_REQUEST['email']))  {
 
-                        //Email information
-                        $admin_email = "khasty720@gmail.com";
-                        $email = $_REQUEST['email'];
-                        $subject = $_REQUEST['subject'];
-                        $comment = $_REQUEST['comment'];
+                          //Email information
+                          $admin_email = "khasty720@gmail.com";
+                          $email = $_REQUEST['email'];
+                          $subject = $_REQUEST['subject'];
+                          $comment = $_REQUEST['comment'];
 
-                        $body = "Subject: {$subject}\n Email: {$email}\n\n Comment: {$comment}";
+                          $body = "Subject: {$subject} Email: {$email} Comment: {$comment}";
+                          //send email
+                          mail($admin_email, "OS Designs", $body , "From: no-reply@osdesigns.co.uk");
 
-                        //send email
-                        mail($admin_email, "OS Designs", $body , "From: no-reply@osdesigns.co.uk");
-                        //mail($email, "OS Designs", "Thank you for contacting us. Your message has been received." , "From: no-reply@osdesigns.co.uk");
-
-                        //Email response
-                        //echo "<meta http-equiv='refresh' content='0'>";
-                        echo "<p>Thank you for contacting us! Your message has been sent.</p>";
-                        //echo "<script>setTimeout(function(){ document.body.scrollTop = document.body.scrollHeight; }, 200); </script>";
-
-                      } else {
-
+                          //Email response
+                          echo "<p>Thank you for contacting us! Your message has been sent.</p>";
+                        } else {
                       ?>
+
                         <form method="post">
                               <div>
                                   <div class="_row">
