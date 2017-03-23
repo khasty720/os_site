@@ -249,25 +249,25 @@
                         <p>Tel +44 (0) 207 352 6323</p>
                     </div>
                     <div class="_form">
-
                       <?php
                         //if "email" variable is filled out, send email
                         if (isset($_REQUEST['email']))  {
 
                           //Email information
-                          $admin_email = "khasty720@gmail.com";
+                          $admin_email = "khasty1@jhu.edu";
                           $email = $_REQUEST['email'];
                           $subject = $_REQUEST['subject'];
                           $comment = $_REQUEST['comment'];
 
-                          $body = "Subject: {$subject} Email: {$email} Comment: {$comment}";
+                          //$body = "Subject: {$subject} Email: {$email} Comment: {$comment}";
                           //send email
-                          mail($admin_email, "OS Designs", $body , "From: no-reply@osdesigns.co.uk");
+                          mail($admin_email, "OS Designs", $comment , "From: no-reply@osdesigns.co.uk");
 
                           //Email response
                           echo "<p>Thank you for contacting us! Your message has been sent.</p>";
                         }
                       ?>
+                      
                         <form method="post">
                               <div>
                                   <div class="_row">
