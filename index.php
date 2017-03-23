@@ -250,34 +250,20 @@
                     </div>
                     <div class="_form">
                       <?php
-                        //if "email" variable is filled out, send email
-                        if (isset($_REQUEST['email']))  {
-
-                          //Email information
-                          $admin_email = "khasty1@jhu.edu";
-                          $email = $_REQUEST['email'];
-                          $subject = $_REQUEST['subject'];
-                          $comment = $_REQUEST['comment'];
-
-                          $body = "Subject: {$subject} Email: {$email} Comment: {$comment}";
-                          
-                          //send email
-                          mail($admin_email, "OS Designs", $body, "From: no-reply@osdesigns.co.uk");
-
-                          //Email response
-                          echo "<p>Thank you for contacting us! Your message has been sent.</p>";
-                        } else {
-                      ?>
-
-                            <form method="post">
+                        $action=$_REQUEST['action'];
+                        if ($action=="")    /* display the contact form */
+                            {
+                            ?>
+                            <form  action="" method="POST" enctype="multipart/form-data">
+                              <input type="hidden" name="action" value="submit">
                               <div>
                                   <div class="_row">
                                       <label for="contact_fullname">Name:</label>
-                                      <input class="form-control" type="text" id="contact_fullname" name="subject" placeholder="Enter Name" required />
+                                      <input class="form-control" type="text" id="contact_fullname" name="name" placeholder="Enter Name" size="30" required />
                                   </div>
                                   <div class="_row">
                                       <label for="contact_email">Email:</label>
-                                      <input class="form-control" type="text" id="contact_email" name="email" placeholder="Enter Email" required/>
+                                      <input class="form-control" type="text" id="contact_email" name="email" placeholder="Enter Email" size="30" required/>
                                   </div>
                                   <div class="_row">
                                       <label for="contact_email">Message:</label>
@@ -288,9 +274,33 @@
                                   </div>
                               </div>
                             </form>
-                      <?php
-                        }
-                      ?>
+                        <?php
+                            }
+                        else /* send the submitted data */
+                            {
+                              $name = $_REQUEST['name'];
+                              $email = $_REQUEST['email'];
+                              $comment = $_REQUEST['comment'];
+
+                            if (($name=="")||($email=="")||($comment=="")) {
+                                //echo "<p>Email: " . $email . "</p>";
+                                //echo "<p>Name: " . $name. "</p>";
+                                //echo "<p>Comment: " . $comment. "</p>";
+                        		    echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+                        	   }
+                            else {
+                        	       $from="From: $name<$email>\r\nReturn-path: $email";
+                                 //$subject="Message sent using your contact form";
+                        		     mail("khasty1@jhu.edu", $subject, $message, $from);
+                                 //mail("khasty1@jhu.edu", $subject, $comment, $from);
+                        		     echo "<p>Thank you for contacting us! Your message has been sent.</p>";
+
+                                 //$body = "Subject: {$subject} Email: {$email} Comment: {$comment}";
+                                 //send email
+                                 //mail("khasty1@jhu.edu", "OS Designs", $body, "From: no-reply@osdesigns.co.uk");
+                        	    }
+                            }
+                          ?>
 
                     </div>
                 </div>
