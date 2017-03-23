@@ -290,13 +290,11 @@
                         	   }
                             else {
                         	       $from="From: $name<$email>\r\nReturn-path: $email";
-                                 //$subject="Message sent using your contact form";
-                        		     mail("khasty1@jhu.edu", $subject, $message, $from);
-                                 //mail("khasty1@jhu.edu", $subject, $comment, $from);
+                                 $subject="OS Designs: Contact Us";
+                        		     mail("khasty1@jhu.edu", $subject, $comment, $from);
                         		     echo "<p>Thank you for contacting us! Your message has been sent.</p>";
 
                                  //$body = "Subject: {$subject} Email: {$email} Comment: {$comment}";
-                                 //send email
                                  //mail("khasty1@jhu.edu", "OS Designs", $body, "From: no-reply@osdesigns.co.uk");
                         	    }
                             }
