@@ -266,9 +266,8 @@
 
                           //Email response
                           echo "<p>Thank you for contacting us! Your message has been sent.</p>";
-                        } else {
+                        }
                       ?>
-
                         <form method="post">
                               <div>
                                   <div class="_row">
@@ -288,9 +287,7 @@
                                   </div>
                               </div>
                         </form>
-                      <?php
-                      }
-                      ?>
+
                     </div>
                 </div>
 			        </div>
