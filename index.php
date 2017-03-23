@@ -259,15 +259,15 @@
                           $subject = $_REQUEST['subject'];
                           $comment = $_REQUEST['comment'];
 
-                          //$body = "Subject: {$subject} Email: {$email} Comment: {$comment}";
+                          $body = "Subject: {$subject} Email: {$email} Comment: {$comment}";
                           //send email
-                          mail($admin_email, "OS Designs", $comment , "From: no-reply@osdesigns.co.uk");
+                          mail($admin_email, "OS Designs", $body  , "From: no-reply@osdesigns.co.uk");
 
                           //Email response
-                          echo "<p>Thank you for contacting us! Your message has been sent.</p>";
+                          //echo "<p>Thank you for contacting us! Your message has been sent.</p>";
                         }
                       ?>
-                      
+
                         <form method="post">
                               <div>
                                   <div class="_row">
