@@ -249,25 +249,52 @@
                         <p>Tel +44 (0) 207 352 6323</p>
                     </div>
                     <div class="_form">
-                        <form action="#">
-                            <div>
-                                <div class="_row">
-                                    <label for="contact_fullname">Name:</label>
-                                    <input class="form-control" type="text" id="contact_fullname" name="fullname" placeholder="Enter Name" />
-                                </div>
-                                <div class="_row">
-                                    <label for="contact_email">Email:</label>
-                                    <input class="form-control" type="text" id="contact_email" name="email" placeholder="Enter Email" />
-                                </div>
-                                <div class="_row">
-                                    <label for="contact_email">Message:</label>
-                                    <textarea class="form-control" id="contact_message" name="message" placeholder="Enter Your Message"></textarea>
-                                </div>
-                                <div class="_row">
-                                    <button type="button" class="btn btn-default">Submit</button>
-                                </div>
-                            </div>
-                        </form>
+
+                      <?php
+                        //if "email" variable is filled out, send email
+                        if (isset($_REQUEST['email']))  {
+
+                        //Email information
+                        $admin_email = "khasty720@gmail.com";
+                        $email = $_REQUEST['email'];
+                        $subject = $_REQUEST['subject'];
+                        $comment = $_REQUEST['comment'];
+
+                        $body = "Subject: {$subject}\n Email: {$email}\n\n Comment: {$comment}";
+
+                        //send email
+                        //mail($admin_email, $subject, $comment, "From:" . $email);
+                        mail($admin_email, "OS Designs", $body , "From: no-reply@osdesigns.co.uk");
+                        mail($email, "OS Designs", "Thank you for contacting us. Your message has been received." , "From: no-reply@osdesigns.co.uk");
+
+                        //Email response
+                        //echo "<meta http-equiv='refresh' content='0'>";
+                        echo "<p>Thank you for contacting us! Your message has been sent.</p>";
+                        echo "<script>setTimeout(function(){ document.body.scrollTop = document.body.scrollHeight; }, 200); </script>";
+
+                      }
+                        //if "email" variable is not filled out, display the form
+                      ?>
+                        <form method="post">
+                              <div>
+                                  <div class="_row">
+                                      <label for="contact_fullname">Name:</label>
+                                      <input class="form-control" type="text" id="contact_fullname" name="subject" placeholder="Enter Name" required />
+                                  </div>
+                                  <div class="_row">
+                                      <label for="contact_email">Email:</label>
+                                      <input class="form-control" type="text" id="contact_email" name="email" placeholder="Enter Email" required/>
+                                  </div>
+                                  <div class="_row">
+                                      <label for="contact_email">Message:</label>
+                                      <textarea class="form-control" id="contact_message" name="comment" placeholder="Enter Your Message" required></textarea>
+                                  </div>
+                                  <div class="_row">
+                                      <input type="submit" class="btn btn-default" value="Submit" />
+                                  </div>
+                              </div>
+                          </form>
+
                     </div>
                 </div>
 			        </div>
