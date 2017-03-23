@@ -265,14 +265,14 @@
                         //send email
                         //mail($admin_email, $subject, $comment, "From:" . $email);
                         mail($admin_email, "OS Designs", $body , "From: no-reply@osdesigns.co.uk");
-                        mail($email, "OS Designs", "Thank you for contacting us. Your message has been received." , "From: no-reply@osdesigns.co.uk");
+                        //mail($email, "OS Designs", "Thank you for contacting us. Your message has been received." , "From: no-reply@osdesigns.co.uk");
 
                         //Email response
                         //echo "<meta http-equiv='refresh' content='0'>";
                         echo "<p>Thank you for contacting us! Your message has been sent.</p>";
-                        echo "<script>setTimeout(function(){ document.body.scrollTop = document.body.scrollHeight; }, 200); </script>";
+                        //echo "<script>setTimeout(function(){ document.body.scrollTop = document.body.scrollHeight; }, 200); </script>";
 
-                      }
+                      } else {
                         //if "email" variable is not filled out, display the form
                       ?>
                         <form method="post">
@@ -293,8 +293,10 @@
                                       <input type="submit" class="btn btn-default" value="Submit" />
                                   </div>
                               </div>
-                          </form>
-
+                        </form>
+                      <?php
+                      }
+                      ?>
                     </div>
                 </div>
 			        </div>
