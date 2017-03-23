@@ -263,7 +263,6 @@
                         $body = "Subject: {$subject}\n Email: {$email}\n\n Comment: {$comment}";
 
                         //send email
-                        //mail($admin_email, $subject, $comment, "From:" . $email);
                         mail($admin_email, "OS Designs", $body , "From: no-reply@osdesigns.co.uk");
                         //mail($email, "OS Designs", "Thank you for contacting us. Your message has been received." , "From: no-reply@osdesigns.co.uk");
 
@@ -273,7 +272,7 @@
                         //echo "<script>setTimeout(function(){ document.body.scrollTop = document.body.scrollHeight; }, 200); </script>";
 
                       } else {
-                        //if "email" variable is not filled out, display the form
+
                       ?>
                         <form method="post">
                               <div>
