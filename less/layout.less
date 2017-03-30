@@ -179,6 +179,37 @@ pre { border:0; background:none; padding:0; margin:0; }
 					height: 25%;
 					margin-left: 5%;
 				}
+
+				.profile-img-sm {
+					width: 40%;
+				}
+
+				@media @mobile {
+					.media-object.profile-img {
+						display: none;
+					}
+				}
+				@media @x-small {
+					.media-object.profile-img {
+					 display: none;
+					}
+				}
+				@media @tablet {
+					.media-object.profile-img {
+						display: none;
+					}
+				}
+				@media @desktop {
+					.profile-img-sm {
+						display: none;
+					}
+				}
+				@media @desktop-xl {
+					.profile-img-sm {
+						display: none;
+					}
+				}
+
 			}
 		}
 		&.projects {

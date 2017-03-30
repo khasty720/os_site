@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">OS Designs</a>
+              <a class="navbar-brand" href="#"><div><img class="icon" src="img/logo.png"><span>OS DESIGNS</span></div></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -121,6 +121,7 @@
                 <p>The studio has an international portfolio including large-scale architectural design and renovation for listed buildings in central London, interior design for commercial and residential projects across London, Buckinghamshire and Oxfordshire as well as many projects in the Middle East. </p>
 
                 <h3>Oz Lancaster, Design Director &amp; Founder</h3>
+                <img class="profile-img-sm" src="img/profile_pic.jpg" alt="Profile image">
                 <div class="media">
                   <div class="media-body">
                     <p>Design Director, Oz Lancaster (RIBA affiliate member), is the leading force behind the company. Oz started applying her talents during her Interior Architecture and Design degree, which was soon followed with an MA in Furniture Design from Buckinghamshire Chilterns University College – the leading Furniture Design program in the UK. Her diverse background allows her to look beyond just the furnishing of a room; she has a strong architectural background allowing her to design and further develop the architectural and structural elements of the projects undertaken by the company.</p>
