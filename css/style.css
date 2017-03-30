@@ -506,8 +506,6 @@ pre {
   padding: 2%;
 }
 .main section.portfolio .gallery .thumbnail {
-  width: 150px;
-  height: 105px;
   padding: 0px;
   border-radius: 0;
   border: 0;
@@ -682,4 +680,29 @@ pre {
   .footer {
     display: none;
   }
+}
+.navbar-default {
+  border-color: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: medium;
+}
+.navbar-default .navbar-header .navbar-brand {
+  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #777;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a:visited {
+  color: #ffffff;
 }

@@ -40,3 +40,36 @@
     display: none;
   }
 }
+
+
+//Nav Bar styles
+.navbar-default {
+    border-color: rgba(0, 0, 0, 0.6);
+    background:rgba(0, 0, 0, 0.6);
+    color: @white;
+    font-family:@josefin;
+    font-size: medium;
+    //font-size:20px;
+    //font-weight:300;
+
+    .navbar-header {
+      .navbar-brand {
+        color: @white;
+        font-family:@josefin;
+        font-size: 21px;
+        font-weight:300;
+      }
+    }
+
+    .navbar-nav > li > a {
+      color: @white;
+
+      &:hover, &:active, &:focus {
+        color: #777;
+        text-decoration: none;
+      }
+      &:visited {
+        color: @white;
+      }
+    }
+}
