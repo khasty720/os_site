@@ -291,7 +291,7 @@
                             else {
                         	       $from="From: $name<$email>\r\nReturn-path: $email";
                                  $subject="OS Designs: Contact Us";
-                        		     mail("khasty1@jhu.edu", $subject, $comment, $from);
+                        		     mail("info@osdesigns.co.uk", $subject, $comment, $from);
                         		     echo "<p>Thank you for contacting us! Your message has been sent.</p>";
 
                                  //$body = "Subject: {$subject} Email: {$email} Comment: {$comment}";
