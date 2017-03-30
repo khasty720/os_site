@@ -24,6 +24,44 @@
     <![endif]-->
   </head>
   <body>
+        <nav class="navbar navbar-default navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">OS Designs</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="../navbar/">Default</a></li>
+                <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
+                <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
     <div class="container body-container">
       <div class="left_rail">
 
@@ -305,6 +343,9 @@
 			        </div>
         </section>
 
+
+
+
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -315,5 +356,15 @@
     <script src="js/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
     <script src="js/main.js"></script>
   </div>
+
+  <footer class="footer">
+      <div class="social">
+        <a href="https://www.facebook.com/OsDesignsLimited" class="external"><i class="fa fa-2x fa-facebook-square"></i></a>
+        <a href="https://uk.linkedin.com/in/oz-özge-lancaster-74770826" class="external"><i class="fa fa-2x fa-linkedin-square"></i></a>
+        <a href="https://twitter.com/OS_Designs" class="external"><i class="fa fa-2x fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/o.s.designs/?hl=en" class="external"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+      </div>
+   </footer>
+
   </body>
 </html>

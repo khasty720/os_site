@@ -18,9 +18,29 @@ body {
   line-height: normal;
   position: relative;
 }
-@media (max-width: 640px) {
+@media only screen and (max-width: 320px) {
   body {
-    padding-top: 93px;
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  body {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  body {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 993px) {
+  body {
+    padding-top: 0;
   }
 }
 h1,
@@ -253,6 +273,21 @@ pre {
 /* **************************************************************** */
 /* Left Rail
 /* **************************************************************** */
+@media only screen and (max-width: 320px) {
+  .left_rail {
+    display: none;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .left_rail {
+    display: none;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .left_rail {
+    display: none;
+  }
+}
 .left_rail {
   background: rgba(0, 0, 0, 0.6);
   color: #ffffff;
@@ -335,7 +370,7 @@ pre {
   padding: 0;
 }
 .main section.home .quote {
-  width: 600px;
+  width: 80%;
   text-align: center;
   margin: 0 auto;
 }
@@ -353,9 +388,24 @@ pre {
   font-style: normal;
   text-align: right;
 }
+@media only screen and (max-width: 320px) {
+  .main section.home {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .main section.home {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .main section.home {
+    margin: 0;
+  }
+}
 .main section.services ._inner {
   background: #666666;
-  margin: 12%;
+  margin: 10%;
   padding: 3%;
   font-size: 15px;
 }
@@ -367,7 +417,7 @@ pre {
 }
 .main section.about ._inner {
   background: #666666;
-  margin: 12%;
+  margin: 10%;
   padding: 3%;
   font-size: 15px;
 }
@@ -506,23 +556,38 @@ pre {
   padding: 20px 0 0;
   text-align: center;
 }
+@media only screen and (max-width: 320px) {
+  .main.home {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .main.home {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .main.home {
+    margin: 0;
+  }
+}
 /* **************************************************************** */
 /* Footer
 /* **************************************************************** */
-.footer {
-  font-size: 13px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background: #000000;
-  color: #999999;
-  text-align: right;
-  height: 60px;
-  line-height: 60px;
-  width: 100%;
-  padding: 0 20px 0 0;
-  z-index: 1000;
-}
+/*.footer {
+	font-size:13px;
+	position:fixed;
+	bottom:0;
+	left:0;
+	background:@black;
+	color:@darkest_grey;
+	text-align:right;
+	height:60px;
+	line-height:60px;
+	width:100%;
+	padding:0 20px 0 0;
+	z-index:1000;
+}*/
 /* **************************************************************** */
 /* Bootstrap Overrides
 /* **************************************************************** */
@@ -539,4 +604,67 @@ pre {
 .modal-backdrop {
   background-color: black;
   opacity: 1;
+}
+/* **************************************************************** */
+/* Footer
+/* **************************************************************** */
+.footer {
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+}
+.footer .social {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.footer .social a {
+  color: #ffffff;
+  padding-left: 6px;
+}
+@media only screen and (max-width: 320px) {
+  nav {
+    visibility: visible;
+  }
+  .footer {
+    visibility: visible;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  nav {
+    visibility: visible;
+  }
+  .footer {
+    visibility: visible;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  nav {
+    visibility: visible;
+  }
+  .footer {
+    visibility: visible;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  nav {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+}
+@media only screen and (min-width: 993px) {
+  nav {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
 }

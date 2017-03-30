@@ -13,6 +13,22 @@ pre { border:0; background:none; padding:0; margin:0; }
 /* **************************************************************** */
 /* Left Rail
 /* **************************************************************** */
+@media @mobile {
+  .left_rail {
+    display: none;
+  }
+}
+@media @x-small {
+  .left_rail {
+    display: none;
+  }
+}
+@media @tablet {
+  .left_rail {
+    display: none;
+  }
+}
+
 .left_rail {
 	background:rgba(0, 0, 0, 0.6);
 	color:@white;
@@ -85,6 +101,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 		&.white {
 			background:@white;
 		}
+
 		&.home {
 			color:@white;
 			font-family:@open_sans;
@@ -94,7 +111,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 			margin:0 0 0 20%;
 			padding:0;
 			.quote {
-				width:600px;
+				width: 80%;
 				text-align:center;
 				margin:0 auto;
 				span {
@@ -113,10 +130,26 @@ pre { border:0; background:none; padding:0; margin:0; }
 				}
 			}
 		}
+		@media @mobile {
+		  &.home {
+		    margin:0;
+		  }
+		}
+		@media @x-small {
+		  &.home {
+		   margin:0;
+		  }
+		}
+		@media @tablet {
+		  &.home {
+		    margin:0;
+		  }
+		}
+
 		&.services {
 			._inner {
 				background: @darker_grey;
-		    margin: 12%;
+		    margin: 10%;
 		    padding: 3%;
 		    font-size: 15px;
 		    //opacity: .90;
@@ -131,7 +164,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 		&.about {
 			._inner {
 				background: @darker_grey;
-		    margin: 12%;
+		    margin: 10%;
 		    padding: 3%;
 		    font-size: 15px;
 		    //opacity: .90;
@@ -294,12 +327,28 @@ pre { border:0; background:none; padding:0; margin:0; }
 			text-align: center;
 		}
 	}
+
+	@media @mobile {
+		&.home {
+			margin:0;
+		}
+	}
+	@media @x-small {
+		&.home {
+		 margin:0;
+		}
+	}
+	@media @tablet {
+		&.home {
+			margin:0;
+		}
+	}
 }
 
 /* **************************************************************** */
 /* Footer
 /* **************************************************************** */
-.footer {
+/*.footer {
 	font-size:13px;
 	position:fixed;
 	bottom:0;
@@ -312,7 +361,7 @@ pre { border:0; background:none; padding:0; margin:0; }
 	width:100%;
 	padding:0 20px 0 0;
 	z-index:1000;
-}
+}*/
 
 /* **************************************************************** */
 /* Bootstrap Overrides
@@ -333,4 +382,31 @@ pre { border:0; background:none; padding:0; margin:0; }
 .modal-backdrop {
    background-color: black;
 	 opacity: 1;
+}
+
+
+/* **************************************************************** */
+/* Footer
+/* **************************************************************** */
+.footer {
+	background:rgba(0, 0, 0, 0.6);
+	color:@white;
+	font-family:@josefin;
+	font-size:14px;
+
+  position: absolute;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+
+	.social {
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		padding: 10px;
+		a {
+			color:@white;
+			padding-left:6px;
+		}
+	}
 }
