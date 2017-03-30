@@ -600,6 +600,39 @@ pre {
 .main section.contact .form_outer ._form ._row:last-child {
   margin: 0;
 }
+@media only screen and (max-width: 320px) {
+  .main section.contact .form_outer {
+    padding: 7%;
+  }
+  .main section.contact .form_outer ._info {
+    width: 100%;
+  }
+  .main section.contact .form_outer ._form {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .main section.contact .form_outer {
+    padding: 7%;
+  }
+  .main section.contact .form_outer ._info {
+    width: 100%;
+  }
+  .main section.contact .form_outer ._form {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .main section.contact .form_outer {
+    padding: 7%;
+  }
+  .main section.contact .form_outer ._info {
+    width: 100%;
+  }
+  .main section.contact .form_outer ._form {
+    width: 100%;
+  }
+}
 .main section ._inner {
   padding: 20px 0 0;
   text-align: center;
