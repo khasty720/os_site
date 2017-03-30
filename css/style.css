@@ -705,7 +705,7 @@ pre {
 /* Footer
 /* **************************************************************** */
 .footer {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.77);
   color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
@@ -765,8 +765,8 @@ pre {
   }
 }
 .navbar-default {
-  border-color: rgba(0, 0, 0, 0.6);
-  background: rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 0, 0, 0.77);
+  background: rgba(0, 0, 0, 0.77);
   color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
   font-size: medium;
