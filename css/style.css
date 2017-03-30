@@ -431,6 +431,18 @@ pre {
   height: 25%;
   margin-left: 5%;
 }
+.main section.projects ._inner {
+  background: #666666;
+  margin: 10%;
+  padding: 3%;
+  font-size: 15px;
+}
+.main section.projects ._inner p {
+  margin: 0 auto 2%;
+  color: #ffffff;
+  line-height: normal;
+  text-align: left;
+}
 .main section.portfolio {
   /** modal **/
 }
@@ -479,6 +491,16 @@ pre {
   vertical-align: middle;
   width: 90%;
   margin-top: 5px;
+}
+@media only screen and (max-width: 320px) {
+  .main section.portfolio .modal-dialog {
+    margin-top: 25vh;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .main section.portfolio .modal-dialog {
+    margin-top: 25vh;
+  }
 }
 .main section.portfolio .modal-content {
   border-radius: 0;

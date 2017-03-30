@@ -181,6 +181,22 @@ pre { border:0; background:none; padding:0; margin:0; }
 				}
 			}
 		}
+		&.projects {
+			._inner {
+				background: @darker_grey;
+				margin: 10%;
+				padding: 3%;
+				font-size: 15px;
+				//opacity: .90;
+				p {
+					margin: 0 auto 2%;
+					color: @white;
+					line-height: normal;
+					text-align: left;
+				}
+
+			}
+		}
 		&.portfolio {
 
 			.portfolio_outer {
@@ -238,6 +254,18 @@ pre { border:0; background:none; padding:0; margin:0; }
 					//padding-bottom: 2%;
 					//margin: 15px;
 				}
+
+				@media @mobile {
+					.modal-dialog {
+						margin-top: 25vh;
+					}
+				}
+				@media @x-small {
+					.modal-dialog {
+					 margin-top: 25vh;
+					}
+				}
+
 
 			.modal-content {
 				border-radius: 0;

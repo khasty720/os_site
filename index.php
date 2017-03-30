@@ -134,7 +134,7 @@
           </div>
         </section>
 
-        <section id="section_projects" class="about">
+        <section id="section_projects" class="projects">
           <div class="_inner">
                 <h2>Projects</h2><center>
                 <ul>
