@@ -4,14 +4,17 @@
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
-html,
-body {
-  height: 100%;
+html {
+  height: 100vh;
+  /* set viewport constraint */
   min-height: 100%;
+  /* enforce height */
 }
 body {
-  background: url('../img/bg.jpg') top center no-repeat fixed;
+  background: url('../img/bg.jpg') no-repeat fixed top center;
   background-size: cover;
+  -webkit-background-size: cover;
+  /* safari may need this */
   color: #666666;
   font-family: 'Open Sans', sans-serif;
   font-size: 100%;

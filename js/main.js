@@ -144,25 +144,3 @@ $('#scroll_to_contact').on('click',function(){
 	$('body').scrollTo('#section_contact');
 	$('.navbar-toggle').click();
 });
-
-/*
-function scroll_to_about() {
-	$('body').scrollTo('#section_about');
-	$('.navbar-toggle').click();
-}
-function scroll_to_projects() {
-	$('body').scrollTo('#section_projects');
-	$('.navbar-toggle').click();
-}
-function scroll_to_services() {
-	$('body').scrollTo('#section_services');
-	$('.navbar-toggle').click();
-}
-function scroll_to_portfolio() {
-	$('body').scrollTo('#section_portfolio');
-	$('.navbar-toggle').click();
-}
-function scroll_to_contact() {
-	$('body').scrollTo('#section_contact');
-	$('.navbar-toggle').click();
-}*/
