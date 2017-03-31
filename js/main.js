@@ -123,8 +123,29 @@ $('.modal')
 
 
 
-
 //Navbar scroll to
+$('#scroll_to_about').on('click',function(){
+	$('body').scrollTo('#section_about');
+	$('.navbar-toggle').click();
+});
+$('#scroll_to_projects').on('click',function(){
+	$('body').scrollTo('#section_projects');
+	$('.navbar-toggle').click();
+});
+$('#scroll_to_services').on('click',function(){
+	$('body').scrollTo('#section_services');
+	$('.navbar-toggle').click();
+});
+$('#scroll_to_portfolio').on('click',function(){
+	$('body').scrollTo('#section_portfolio');
+	$('.navbar-toggle').click();
+});
+$('#scroll_to_contact').on('click',function(){
+	$('body').scrollTo('#section_contact');
+	$('.navbar-toggle').click();
+});
+
+/*
 function scroll_to_about() {
 	$('body').scrollTo('#section_about');
 	$('.navbar-toggle').click();
@@ -144,4 +165,4 @@ function scroll_to_portfolio() {
 function scroll_to_contact() {
 	$('body').scrollTo('#section_contact');
 	$('.navbar-toggle').click();
-}
+}*/

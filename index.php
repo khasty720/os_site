@@ -37,11 +37,11 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#" ontouchstart="scroll_to_services()">Services</a></li>
-                <li><a href="#" ontouchstart="scroll_to_about()">About Us</a></li>
-                <li><a href="#" ontouchstart="scroll_to_projects()">Projects</a></li>
-                <li><a href="#" ontouchstart="scroll_to_portfolio()">Portfolio</a></li>
-                <li><a href="#" ontouchstart="scroll_to_contact()">Contact Us</a></li>
+                <li><a href="#" id="scroll_to_services">Services</a></li>
+                <li><a href="#" id="scroll_to_about">About Us</a></li>
+                <li><a href="#" id="scroll_to_projects">Projects</a></li>
+                <li><a href="#" id="scroll_to_portfolio">Portfolio</a></li>
+                <li><a href="#" id="scroll_to_contact">Contact Us</a></li>
               </ul>
               <!--
               <ul class="nav navbar-nav navbar-right">
