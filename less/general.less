@@ -12,9 +12,16 @@ html {
 }
 
 body {
-	background: url('../img/bg.jpg') no-repeat fixed top center;
+	background: url('../img/bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
-	-webkit-background-size: cover; /* safari may need this */
+
+	//Old
+	//background: url('../img/bg.jpg') no-repeat fixed top center;
+	//background-size: cover;
+	//-webkit-background-size: cover; /* safari may need this */
 	//height:100%;
 	//min-height:100%;
 
@@ -23,6 +30,22 @@ body {
 	font-size:100%;
 	line-height:normal;
 	position:relative;
+}
+
+//New
+body:after {
+      content:"";
+      position:fixed; // stretch a fixed position to the whole screen
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      z-index:-1; // needed to keep in the background
+      background: url('../img/bg.jpg') center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 @media @mobile {

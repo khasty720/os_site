@@ -11,15 +11,30 @@ html {
   /* enforce height */
 }
 body {
-  background: url('../img/bg.jpg') no-repeat fixed top center;
-  background-size: cover;
+  background: url('../img/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
-  /* safari may need this */
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: #666666;
   font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   line-height: normal;
   position: relative;
+}
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: url('../img/bg.jpg') center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 @media only screen and (max-width: 320px) {
   body {
